@@ -18,6 +18,7 @@ docker login mycluster.icp:8500 -u <username> -p <password>
 ```
 
 3. Push the docker image from your local file system to your docker image registry using the following commands
+    
     a. Tag the image
     ```bash
     docker tag icp4d-api:v1 mycluster.icp:8500/zen/icp4d-api:v1
