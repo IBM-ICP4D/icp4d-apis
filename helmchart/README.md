@@ -48,5 +48,5 @@ https://`ICP4D-cluster`:31843/icp4d-api/docs
 
 To uninstall/delete the `icp4d-openapi` deployment:
 ```bash
-$ helm delete --purge icp4d-open-api --tls
+helm delete --purge icp4d-open-api --tls
 ```
