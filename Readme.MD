@@ -30,7 +30,7 @@ docker pull ibmicp4d/icp4d-open-apis:v1
     docker push mycluster.icp:8500/zen/icp4d-api:v1
     ```
     
-4. Clone the github repository icp4d-apis to receive a copy of the helmchart. Browse to the repo directory
+4. Clone the github repository IBM-ICP4D/icp4d-apis to receive a copy of the helmchart. Browse to the repo directory
 ```bash
 git clone https://github.com/IBM-ICP4D/icp4d-apis.git
 cd icp4d-apis
