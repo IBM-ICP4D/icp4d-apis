@@ -1,6 +1,6 @@
 ## Introduction:
 
-This chart can deploy the ICP4D Open API to enable users to programmatically operate with the Information Governance Catalog and ANALYTICS components in IBM Cloud Private for Data. 
+This chart can deploy the ICP4D Open API to enable users to programmatically operate with the Information Governance Catalog and Analytics components in IBM Cloud Private for Data. 
 
 ## Prerequisites:
 
