@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<descriptor xmlns="http://www.ibm.com/iis/igc/asset-type-descriptor" bundleId="DVPro">
+
+<family position="1" classRefs="AssetClass_2,AssetClass_1,AssetClass_3" >
+<label key="ASSET_FMLY_LBL_KEY" inDefaultLocale="DVPro" />
+</family>
+
+
+<class localId="AssetClass_2" dataAccessRole="Active" canHaveImage="true" expandableInLineage="true" containerClassRefs="AssetClass_1">
+<label key="ASSET_CLASS2_LBL_KEY" inDefaultLocale="Dashboard" />
+<pluralLabel key="ASSET_CLASS2_LBLS_KEY" inDefaultLocale="Dashboards" />
+<headerSection>
+<attribute localId="ASSET_CLASS2_ATTR1_ID" type="String" editable="true">
+<label key="ASSET_CLASS2_ATTR1_LBL_KEY" inDefaultLocale="Layout" />
+<validValue localId="ASSET_CLASS2_ATTR1_VAL1_ID">
+<label key="ASSET_CLASS2_ATTR1_VAL1_LBL_KEY" inDefaultLocale="Horizontal" />
+</validValue>
+<validValue localId="ASSET_CLASS2_ATTR1_VAL2_ID">
+<label key="ASSET_CLASS2_ATTR1_VAL2_LBL_KEY" inDefaultLocale="Vertical" />
+</validValue>
+</attribute>
+<attribute localId="ASSET_CLASS2_ATTR2_ID" type="String" editable="true">
+<label key="ASSET_CLASS2_ATTR2_LBL_KEY" inDefaultLocale="Size" />
+<validValue localId="ASSET_CLASS2_ATTR2_VAL1_ID">
+<label key="ASSET_CLASS2_ATTR2_VAL1_LBL_KEY" inDefaultLocale="Fixed" />
+</validValue>
+<validValue localId="ASSET_CLASS2_ATTR2_VAL2_ID">
+<label key="ASSET_CLASS2_ATTR2_VAL2_LBL_KEY" inDefaultLocale="Automatic" />
+</validValue>
+</attribute>
+<attribute localId="ASSET_CLASS2_ATTR3_ID" type="Double" editable="true">
+<label key="ASSET_CLASS2_ATTR3_LBL_KEY" inDefaultLocale="Width" />
+</attribute>
+<attribute localId="ASSET_CLASS2_ATTR4_ID" type="Double" editable="true">
+<label key="ASSET_CLASS2_ATTR4_LBL_KEY" inDefaultLocale="Height" />
+</attribute>
+</headerSection>
+</class>
+
+<class localId="AssetClass_1" dataAccessRole="Active" canHaveImage="true" expandableInLineage="true" containerClassRefs="">
+<label key="ASSET_CLASS1_LBL_KEY" inDefaultLocale="Workbook" />
+<pluralLabel key="ASSET_CLASS1_LBLS_KEY" inDefaultLocale="Workbooks" />
+<headerSection>
+<attribute localId="ASSET_CLASS1_ATTR1_ID" type="String" editable="true">
+<label key="ASSET_CLASS1_ATTR1_LBL_KEY" inDefaultLocale="Location" />
+</attribute>
+</headerSection>
+</class>
+
+<class localId="AssetClass_3" dataAccessRole="Active" canHaveImage="true" expandableInLineage="true" containerClassRefs="AssetClass_2">
+<label key="ASSET_CLASS3_LBL_KEY" inDefaultLocale="Chart" />
+<pluralLabel key="ASSET_CLASS3_LBLS_KEY" inDefaultLocale="Charts" />
+<headerSection>
+<attribute localId="ASSET_CLASS3_ATTR1_ID" type="String" editable="true">
+<label key="ASSET_CLASS3_ATTR1_LBL_KEY" inDefaultLocale="ChartType" />
+</attribute>
+</headerSection>
+</class>
+
+</descriptor>
