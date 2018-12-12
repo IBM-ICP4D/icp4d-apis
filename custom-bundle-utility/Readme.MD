@@ -6,7 +6,7 @@ This utility has been created to simplify the creation of Custom Asset Bundles.
  `docker pull ibmicp4d/custom-bundle-utility`
 
 2. Run the Utility using the following command :
-`docker run -p 8080:8080 --rm -it igcutility`
+`docker run -p 8080:8080 --rm -it ibmicp4d/custom-bundle-utility`
 
 3. Access the utility by opening a browser and navigating to the following web page :
 `http://localhost:8080/`
