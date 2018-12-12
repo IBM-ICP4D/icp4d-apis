@@ -15,5 +15,5 @@ This utility requires [Docker](https://www.docker.com/get-started) to be install
 3. Access the utility by opening a browser and navigating to the following web page :
 `http://localhost:8080/`
 
-Please refer [this file](icp4d-apis/custom-bundle-utility/Custom Asset Bundle Utility.pdf) for instructions on using the utility to create custom asset bundles.
+Please refer [Custom Asset Bundle Utility.pdf](https://github.com/IBM-ICP4D/icp4d-apis/blob/custom-bundle-utility-branch/custom-bundle-utility/Custom%20Asset%20Bundle%20Utility.pdf) for instructions on using the utility to create custom asset bundles.
       
