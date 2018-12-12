@@ -51,5 +51,5 @@ You can now access the ICP4D Open API's with the following link
 ## Uninstalling the chart
 To uninstall/delete the icp4d-openapi deployment:
 ```bash
-helm delete --purge icp4d-open-api --tls
+helm delete --purge icp4d-openapi --tls
 ```
